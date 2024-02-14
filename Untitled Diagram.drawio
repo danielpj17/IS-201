@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2024-02-14T16:55:14.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.4" etag="WGzFoJ2CrPgY-soQuPbi" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-14T17:01:39.472Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Ak6gp39FFfNedIi0LY5I" version="23.1.4" type="github">
   <diagram name="Page-1" id="RZ7y3szz-6mcCjJyWKxe">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wSNbqrMj6-6cCUTNGYTM-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSNbqrMj6-6cCUTNGYTM-1" target="wSNbqrMj6-6cCUTNGYTM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSNbqrMj6-6cCUTNGYTM-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wSNbqrMj6-6cCUTNGYTM-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSNbqrMj6-6cCUTNGYTM-3" target="wSNbqrMj6-6cCUTNGYTM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSNbqrMj6-6cCUTNGYTM-3" value="GS, HS, R" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSNbqrMj6-6cCUTNGYTM-5" value="GS: Ginny&#39;s Salary&lt;br&gt;HS: Harry&#39;s Salary&lt;br&gt;R: Rate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="23" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wSNbqrMj6-6cCUTNGYTM-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSNbqrMj6-6cCUTNGYTM-6" target="wSNbqrMj6-6cCUTNGYTM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSNbqrMj6-6cCUTNGYTM-6" value="D = (GS + HS) * R" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wSNbqrMj6-6cCUTNGYTM-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wSNbqrMj6-6cCUTNGYTM-9" target="wSNbqrMj6-6cCUTNGYTM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSNbqrMj6-6cCUTNGYTM-9" value="Output(D)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wSNbqrMj6-6cCUTNGYTM-11" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="370" width="120" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
