@@ -1,9 +1,138 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T18:27:55.311Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.4" etag="fniWOR61ObZCrdtfZNS3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-19T19:24:23.521Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="EXVxu0dhlpfiyRmZDHMo" version="23.1.4" type="github">
   <diagram name="Page-1" id="JyIrZ17bsMbsN2qwRbe-">
-    <mxGraphModel>
+    <mxGraphModel dx="978" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-1" target="AS7irCsxhZTfgM_4ODOn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="20" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-2" target="AS7irCsxhZTfgM_4ODOn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-2" value="input = CD" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="366.25" y="90" width="102.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-3" value="CD = Desired Amount in kg&lt;br&gt;S = Sugar&lt;br&gt;F= Flour&lt;br&gt;E = Eggs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="18" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-5" target="AS7irCsxhZTfgM_4ODOn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-5" value="S = A*400 grams&lt;br&gt;F = A*800 grams&lt;br&gt;E = A&lt;sup&gt;.6&lt;/sup&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-7" target="AS7irCsxhZTfgM_4ODOn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-7" value="Output = S, F, E" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-9" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="330" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-11" target="AS7irCsxhZTfgM_4ODOn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-11" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="400" width="102.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-12" value="ICT = Initial Cost of Tuition&lt;br&gt;I = Instate&lt;br&gt;S = Scholarship&lt;br&gt;TTA = Total Tuition Amount&lt;br&gt;CAS = Cost after Scholarship calculation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="469.38" y="420" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-13" target="AS7irCsxhZTfgM_4ODOn-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-13" value="Input = I, S" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="328.75" y="470" width="111.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-18" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-15" target="AS7irCsxhZTfgM_4ODOn-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-15" target="AS7irCsxhZTfgM_4ODOn-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-21" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AS7irCsxhZTfgM_4ODOn-20">
+          <mxGeometry x="-0.0002" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-15" value="S = Yes" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345.005" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-17" target="AS7irCsxhZTfgM_4ODOn-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-17" value="TTA = ICT - 1500 (Instate)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165.005" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-19" value="CAS = ICT - 1000" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485.005" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-19" target="AS7irCsxhZTfgM_4ODOn-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-22" target="AS7irCsxhZTfgM_4ODOn-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-22" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="810" width="25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-28" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-25" target="AS7irCsxhZTfgM_4ODOn-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-30" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-25" target="AS7irCsxhZTfgM_4ODOn-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-25" value="I = Yes" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505.01" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-27" target="AS7irCsxhZTfgM_4ODOn-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="398" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-27" value="TTA = CAS - 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-29" target="AS7irCsxhZTfgM_4ODOn-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-29" value="TTA = CAS - 1500" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-31" target="AS7irCsxhZTfgM_4ODOn-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="543" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-31" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="750" width="25.62" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AS7irCsxhZTfgM_4ODOn-34" target="AS7irCsxhZTfgM_4ODOn-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-34" value="Output = TTA" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="364.07000000000005" y="860" width="105.93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AS7irCsxhZTfgM_4ODOn-36" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374.06999999999994" y="930" width="85.93" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
